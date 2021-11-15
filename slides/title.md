@@ -1,4 +1,4 @@
-# DevOps
+# Advanced DevOps
 #### In a nutshell
 
 <i><a target="_new" href="https://twitter.com/laurentgrangeau">@laurentgrangeau</a> | <a target="_new" href="https://github.com/laurentgrangeau">github.com/laurentgrangeau</a></i>
