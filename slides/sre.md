@@ -6,6 +6,10 @@
 
 * DevOps is a set of practices that works to automate and integrate the processes between sotware development and IT teams, so they can build, test and release software faster and more reliably. - Atlassian
 * DevOps is the combination of cultural philosophies, practices and tools that increase and organization's ability to deliver applications and services at high velocity. - AWS
+----
+
+### Let's get back to DevOps
+
 * DevOps is the union of people, process and product to enable continuous delivery of value to our end users. - Microsoft
 * DevOps is a set of practices that combines software development (Dev) and IT (Ops) to deliver software that is reliable, efficient and scalable. - Wikipedia
 
@@ -94,14 +98,31 @@ A measure of how much demand is being placed on your system, measured in a high-
 
 ### Errors
 
-The rate of requests that fail, either explicitly (e.g., HTTP 500s), implicitly (for example, an HTTP 200 success response, but coupled with the wrong content), or by policy (for example, "If you committed to one-second response times, any request over one second is an error"). Where protocol response codes are insufficient to express all failure conditions, secondary (internal) protocols may be necessary to track partial failure modes. Monitoring these cases can be drastically different: catching HTTP 500s at your load balancer can do a decent job of catching all completely failed requests, while only end-to-end system tests can detect that you’re serving the wrong content.
+The rate of requests that fail, either explicitly (e.g., HTTP 500s), implicitly (for example, an HTTP 200 success response, but coupled with the wrong content), or by policy (for example, "If you committed to one-second response times, any request over one second is an error").
+
+----
+
+### Errors
+
+Where protocol response codes are insufficient to express all failure conditions, secondary (internal) protocols may be necessary to track partial failure modes. Monitoring these cases can be drastically different: catching HTTP 500s at your load balancer can do a decent job of catching all completely failed requests, while only end-to-end system tests can detect that you’re serving the wrong content.
 
 ----
 
 ### Saturation
 
 How "full" your service is. A measure of your system fraction, emphasizing the resources that are most constrained (e.g., in a memory-constrained system, show memory; in an I/O-constrained system, show I/O). Note that many systems degrade in performance before they achieve 100% utilization, so having a utilization target is essential.
-In complex systems, saturation can be supplemented with higher-level load measurement: can your service properly handle double the traffic, handle only 10% more traffic, or handle even less traffic than it currently receives? For very simple services that have no parameters that alter the complexity of the request (e.g., "Give me a nonce" or "I need a globally unique monotonic integer") that rarely change configuration, a static value from a load test might be adequate. As discussed in the previous paragraph, however, most services need to use indirect signals like CPU utilization or network bandwidth that have a known upper bound. Latency increases are often a leading indicator of saturation. Measuring your 99th percentile response time over some small window (e.g., one minute) can give a very early signal of saturation.
+
+----
+
+### Saturation
+
+In complex systems, saturation can be supplemented with higher-level load measurement: can your service properly handle double the traffic, handle only 10% more traffic, or handle even less traffic than it currently receives? For very simple services that have no parameters that alter the complexity of the request (e.g., "Give me a nonce" or "I need a globally unique monotonic integer") that rarely change configuration, a static value from a load test might be adequate. As discussed in the previous paragraph, however, most services need to use indirect signals like CPU utilization or network bandwidth that have a known upper bound. ----
+
+----
+
+### Saturation
+
+Latency increases are often a leading indicator of saturation. Measuring your 99th percentile response time over some small window (e.g., one minute) can give a very early signal of saturation.
 Finally, saturation is also concerned with predictions of impending saturation, such as "It looks like your database will fill its hard drive in 4 hours."
 
 ----
@@ -113,11 +134,21 @@ For example:
     * Availability
     * Latency
     * Quality
+
+----
+
+### No more than 3 to 5 SLIs per user journey
+
   * Data processing
     * Coverage
     * Correctness
     * Freshness
     * Throughput
+
+----
+
+### No more than 3 to 5 SLIs per user journey
+
   * Storage
     * Throughput
     * Latency
@@ -143,6 +174,11 @@ For example:
 * Target
   * Users
   * SLO
+
+----
+
+### Adapt wisely your strategy to slowly burn your error budget
+
 * Automate
   * Deployment
   * Rollback
