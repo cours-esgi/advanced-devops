@@ -15,7 +15,7 @@ Calculate accurately
 
 ### Total Cost of Ownership (TCO)
 
-* Eletrical power
+* Electrical power
 * Location of datacenters
 * Installation costs
 * Maintenance costs

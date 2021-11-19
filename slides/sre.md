@@ -123,7 +123,7 @@ In complex systems, saturation can be supplemented with higher-level load measur
 
 ### Saturation
 
-As discussed in the previous paragraph, however, most services need to use indirect signals like CPU utilization or network bandwidth that have a known upper bound. ----
+As discussed in the previous paragraph, however, most services need to use indirect signals like CPU utilization or network bandwidth that have a known upper bound.
 
 ----
 
