@@ -32,7 +32,7 @@ ChatOps integrates development tools, operations tools, and processes into a col
 
 ### How does ChatOps fit into incident management ?
 
-![](https://www.ibm.com/cloud/architecture/images/courses/chatops-advocate/how-chatops-integrates.jpg)
+![](../imgs/how-chatops-integrates.jpg)
 
 ----
 
@@ -56,6 +56,10 @@ Adapt service management processes to work in the context of DevOps automation a
 
 The Information Technology Infrastructure Library (ITIL) is one of several competing standards for IT service development and management. ITIL is comprehensive and has proven its worth in defining key processes and their relationships.
 
+----
+
+### DevOps and ChatOps
+
 * Follow tested practices: Jump-start your agile IT operational processing by using patterns, including process descriptions, feeds, and outputs defined in ITIL.
 * Adapt to modern team structures: Break down the silos and adapt ITIL to integrated, cross-functional team structures that are inherent in agile DevOps teams.
 * Adopt an agile approach: Especially in a hybrid environment, traditional approaches like ITIL must meet and integrate with more agile approaches.
@@ -66,6 +70,11 @@ The Information Technology Infrastructure Library (ITIL) is one of several compe
 
 * DevOps is a set of practices that automate the processes between development and IT operations teams. The concept is founded on building a culture of collaboration between development and operations teams that historically functioned in relative silos.
 * The promised benefits include increased trust, faster software releases, ability to quickly solve critical issues, and better manage unplanned work.
+
+----
+
+### DevOps and ChatOps
+
 * ChatOps is a perfect example of the collaboration between Development and Operations. ChatOps brings the people of both departments together, with a common set of tools and processes to address issues or outages with the quickest possible speed.
 
 ----
