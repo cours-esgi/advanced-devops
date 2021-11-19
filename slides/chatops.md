@@ -32,7 +32,7 @@ ChatOps integrates development tools, operations tools, and processes into a col
 
 ### How does ChatOps fit into incident management ?
 
-![](../imgs/how-chatops-integrates.jpg)
+![](imgs/how-chatops-integrates.jpg)
 
 ----
 
