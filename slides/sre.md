@@ -6,6 +6,7 @@
 
 * DevOps is a set of practices that works to automate and integrate the processes between sotware development and IT teams, so they can build, test and release software faster and more reliably. - Atlassian
 * DevOps is the combination of cultural philosophies, practices and tools that increase and organization's ability to deliver applications and services at high velocity. - AWS
+
 ----
 
 ### Let's get back to DevOps
@@ -116,7 +117,13 @@ How "full" your service is. A measure of your system fraction, emphasizing the r
 
 ### Saturation
 
-In complex systems, saturation can be supplemented with higher-level load measurement: can your service properly handle double the traffic, handle only 10% more traffic, or handle even less traffic than it currently receives? For very simple services that have no parameters that alter the complexity of the request (e.g., "Give me a nonce" or "I need a globally unique monotonic integer") that rarely change configuration, a static value from a load test might be adequate. As discussed in the previous paragraph, however, most services need to use indirect signals like CPU utilization or network bandwidth that have a known upper bound. ----
+In complex systems, saturation can be supplemented with higher-level load measurement: can your service properly handle double the traffic, handle only 10% more traffic, or handle even less traffic than it currently receives? For very simple services that have no parameters that alter the complexity of the request (e.g., "Give me a nonce" or "I need a globally unique monotonic integer") that rarely change configuration, a static value from a load test might be adequate.
+
+----
+
+### Saturation
+
+As discussed in the previous paragraph, however, most services need to use indirect signals like CPU utilization or network bandwidth that have a known upper bound. ----
 
 ----
 
