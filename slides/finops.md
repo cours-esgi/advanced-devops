@@ -34,12 +34,16 @@ Can be applied to any organization, on public cloud or on-premises
 
 ### Organization
 
-Structure
 * A central organization that will lead the strategic vision of the company
 * Gather technical and projects needs to drive architecture and use of best services
   * Dashboards and reports
   * Don't duplicate the effort
   * Centralized cost dashboards
+
+----
+
+### Organization
+
 * Control which services can be used
 * A steering committee to define finops KPI to follow with all the stakeholders (financial, architets, project managers, etc)
 * Challenge process to optimize the cost of ownership
@@ -133,6 +137,11 @@ We can leverage on tools like:
   * Centralize resources
   * Security best practices
   * Hints to densify or optimize infrastructure
+
+----
+
+### Rightsizing
+
 * Cloudeasier
   * Predictable cost comparing on-premises and cloud
   * Warning: changing cloud provider has a cost
@@ -165,11 +174,9 @@ Environments:
 
 ### High availability
 
-Don't reinvent the wheel
-
-We must ask ourselves the question of the capacity of the services to meet the business need
-
-We must not forget high availability / scalability
+* Don't reinvent the wheel
+* We must ask ourselves the question of the capacity of the services to meet the business needs
+* We must not forget high availability / scalability
   * We don't want to be called to tell us that the application is no longer available/slow...
 
 ----
@@ -184,6 +191,11 @@ We must not forget high availability / scalability
 * Refactor or rearchitect
   * Most flexible solution
   * Most expensive solution
+
+----
+
+### 6R approach
+
 * Retire
   * Should we continue to pay?
 * Retain
@@ -211,14 +223,12 @@ Scaling "de facto": apps must be designed for (example: stateless services)
 
 ### Use serverless services
 
-For example, use a JAMStack for a website
+* For example, use a JAMStack for a website
   * Hosted on a bucket
   * Statically built
   * Can support high throughput
-
-Use REST API
-
-Use managed services
+* Use REST API
+* Use managed services
   * ~70% less time to provision
   * ~45% to ~80% cost reduction on maintanance
 
