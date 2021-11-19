@@ -30,7 +30,7 @@ ChatOps integrates development tools, operations tools, and processes into a col
 
 ----
 
-###  How does ChatOps fit into incident management ?
+### How does ChatOps fit into incident management ?
 
 ![](https://www.ibm.com/cloud/architecture/images/courses/chatops-advocate/how-chatops-integrates.jpg)
 

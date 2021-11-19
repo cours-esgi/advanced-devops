@@ -73,7 +73,7 @@ Apply best practices uniformly, it reduces maintenance time and cost
 * Common security rules (MFA, password strength, roles, etc.)
 * PSSI centralization
 
----
+----
 
 ### Share
 
