@@ -22,13 +22,25 @@ The difference between DevOps and DevSecOps is, to put it simply, the culture of
 
 ### What Is the Difference Between DevOps and DevSecOps?
 
-What started as a loose collection of common practices shared among high-functioning software engineering teams transformed into a modern statement of engineering culture and process: DevOps. Organizations with a shared responsibility of development and operations are able to iterate faster, and as a result are more successful. DevSecOps extends that philosophy, codifying security objectives as part of the overall goal structure. DevSecOps should be thought of as the natural continuation of DevOps, rather than as a separate idea or concept. Teams that are successful in applying DevOps practices should think of DevSecOps as an evolutionary step, rather than a revolutionary one.
+What started as a loose collection of common practices shared among high-functioning software engineering teams transformed into a modern statement of engineering culture and process: DevOps. Organizations with a shared responsibility of development and operations are able to iterate faster, and as a result are more successful.
 
 ----
 
 ### What Is the Difference Between DevOps and DevSecOps?
 
-Many would agree that the goal was to create an environment in which business value is created by moving from code to production with a seamless and sustainable flow. With this new model came tools and methodologies that increased the pace and resulted in a bottleneck, where traditional security practices with slow feedback cycles became inhibitive of high-pace DevOps practices. As a result, security practices were often only accomplished post-production or by external teams injected into the process, thus slowing things down.
+DevSecOps extends that philosophy, codifying security objectives as part of the overall goal structure. DevSecOps should be thought of as the natural continuation of DevOps, rather than as a separate idea or concept. Teams that are successful in applying DevOps practices should think of DevSecOps as an evolutionary step, rather than a revolutionary one.
+
+----
+
+### What Is the Difference Between DevOps and DevSecOps?
+
+Many would agree that the goal was to create an environment in which business value is created by moving from code to production with a seamless and sustainable flow. With this new model came tools and methodologies that increased the pace and resulted in a bottleneck, where traditional security practices with slow feedback cycles became inhibitive of high-pace DevOps practices.
+
+----
+
+### What Is the Difference Between DevOps and DevSecOps?
+
+As a result, security practices were often only accomplished post-production or by external teams injected into the process, thus slowing things down.
 
 ----
 
@@ -64,13 +76,25 @@ Cloud means use of newer technologies that introduce different risks, change fas
 
 ### Why are DevSecOps practices important?
 
-Lastly, DevOps means a change to how software is developed and delivered, accelerating the cycle from writing code to delivering customer value to learning from the market and adapting. Empowered development teams ship software continuously and faster than ever, making technology and implementation decisions autonomously and without intermediaries. The traditional slow feedback loops that bog down development are not tolerated as teams increasingly prioritize being self-sufficient — you write it, you run it.
+Lastly, DevOps means a change to how software is developed and delivered, accelerating the cycle from writing code to delivering customer value to learning from the market and adapting. Empowered development teams ship software continuously and faster than ever, making technology and implementation decisions autonomously and without intermediaries.
 
 ----
 
 ### Why are DevSecOps practices important?
 
-As the rest of the organization evolves, security teams are faced with greater demands and often become more of a bottleneck. Legacy application security tools and practices, designed for the slower-paced pre-cloud era, put security teams in the critical path of delivering high quality applications. These teams, understaffed due to the severe security talent shortage, become a bottleneck and fail to keep up. As a result, dev teams ship insecure applications, security teams burn out, and security becomes a naysayer, negating the acceleration the business is seeking.
+The traditional slow feedback loops that bog down development are not tolerated as teams increasingly prioritize being self-sufficient — you write it, you run it.
+
+----
+
+### Why are DevSecOps practices important?
+
+As the rest of the organization evolves, security teams are faced with greater demands and often become more of a bottleneck. Legacy application security tools and practices, designed for the slower-paced pre-cloud era, put security teams in the critical path of delivering high quality applications. These teams, understaffed due to the severe security talent shortage, become a bottleneck and fail to keep up.
+
+----
+
+### Why are DevSecOps practices important?
+
+As a result, dev teams ship insecure applications, security teams burn out, and security becomes a naysayer, negating the acceleration the business is seeking.
 
 ----
 
@@ -133,7 +157,13 @@ Software composition analysis can be applied holistically to confirm that any op
 
 ### DevSecOps Adoption: Integrating Security into the CI/CD Pipeline
 
-Once the code is checked in and builds, you can start to employ security integration tests. Running the code in an isolated container sandbox allows for automated testing of things like network calls, input validation, and authorization. These tests generate fast feedback, enabling quick iteration and triage of any issues that are identified, causing minimal disruption to the overall stream. If things like unexplained network calls or unsanitized input occur, the tests fail, and the pipeline generates actionable feedback in the form of reporting and notifications to the relevant teams.
+Once the code is checked in and builds, you can start to employ security integration tests. Running the code in an isolated container sandbox allows for automated testing of things like network calls, input validation, and authorization. These tests generate fast feedback, enabling quick iteration and triage of any issues that are identified, causing minimal disruption to the overall stream.
+
+----
+
+### DevSecOps Adoption: Integrating Security into the CI/CD Pipeline
+
+If things like unexplained network calls or unsanitized input occur, the tests fail, and the pipeline generates actionable feedback in the form of reporting and notifications to the relevant teams.
 
 ----
 
