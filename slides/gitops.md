@@ -52,7 +52,14 @@ GitOps requires three core components:
 ### Core components
 
 * CI/CD
-  * GitOps automates infrastructure updates using a Git workflow with continuous integration and continuous delivery (CI/CD). When new code is merged, the CI/CD pipeline enacts the change in the environment. Any configuration drift, such as manual changes or errors, is overwritten by GitOps automation so the environment converges on the desired state defined in Git. GitLab uses CI/CD pipelines to manage and implement GitOps automation, but other forms of automation, such as definitions operators, can be used as well.
+  * GitOps automates infrastructure updates using a Git workflow with continuous integration and continuous delivery (CI/CD). When new code is merged, the CI/CD pipeline enacts the change in the environment. Any configuration drift, such as manual changes or errors, is overwritten by GitOps automation so the environment converges on the desired state defined in Git.
+
+----
+
+### Core components
+
+* CI/CD
+  * GitLab uses CI/CD pipelines to manage and implement GitOps automation, but other forms of automation, such as definitions operators, can be used as well.
 
 ----
 
@@ -89,7 +96,14 @@ While many tools and methodologies promise faster deployment and seamless manage
 ### Principles of GitOps
 
 * The entire system described declaratively.
-  * With Gitops, Kubernetes is just one example of many modern cloud native tools that are “declarative” and that can be treated as code. Declarative means that configuration is guaranteed by a set of facts instead of by a set of instructions. With your application’s declarations versioned in Git, you have a single source of truth. Your apps can then be easily deployed and rolled back to and from Kubernetes. And even more importantly, when disaster strikes, your cluster’s infrastructure can also be dependably and quickly reproduced.
+  * With Gitops, Kubernetes is just one example of many modern cloud native tools that are “declarative” and that can be treated as code. Declarative means that configuration is guaranteed by a set of facts instead of by a set of instructions. With your application’s declarations versioned in Git, you have a single source of truth.
+
+----
+
+### Principles of GitOps
+
+* The entire system described declaratively.
+  * Your apps can then be easily deployed and rolled back to and from Kubernetes. And even more importantly, when disaster strikes, your cluster’s infrastructure can also be dependably and quickly reproduced.
 
 ----
 
@@ -110,7 +124,14 @@ While many tools and methodologies promise faster deployment and seamless manage
 ### Principles of GitOps
 
 * Software agents to ensure correctness and alert on divergence.
-  * Once the state of your system is declared and kept under version control, software agents can inform you whenever reality doesn’t match your expectations. The use of agents also ensures that your entire system is self-healing. And by self-healing, we don’t just mean when nodes or pods fail—those are handled by Kubernetes—but in a broader sense, like in the case of human error. In this case, software agents act as the feedback and control loop for your operations.
+  * Once the state of your system is declared and kept under version control, software agents can inform you whenever reality doesn’t match your expectations. The use of agents also ensures that your entire system is self-healing. And by self-healing, we don’t just mean when nodes or pods fail—those are handled by Kubernetes—but in a broader sense, like in the case of human error.
+
+----
+
+### Principles of GitOps
+
+* Software agents to ensure correctness and alert on divergence.
+  * In this case, software agents act as the feedback and control loop for your operations.
 
 ----
 
@@ -118,8 +139,11 @@ While many tools and methodologies promise faster deployment and seamless manage
 
 Automated delivery pipelines roll out changes to your infrastructure when changes are made to Git. But the idea of GitOps goes further than that – GitOps uses tools to compare the actual production state of your whole application with what’s under source control and then it tells you when your cluster doesn’t match the real world.
 
-By applying GitOps best practices, there is a ‘source of truth’ for both your infrastructure and application code, allowing development teams to increase velocity and improve system reliability.
+----
 
+### Key benefits of GitOps
+
+By applying GitOps best practices, there is a ‘source of truth’ for both your infrastructure and application code, allowing development teams to increase velocity and improve system reliability.
 
 ----
 
@@ -322,7 +346,13 @@ By combining GitOps workflows with real-time observability, your development tea
 
 ### Observability as a deployment catalyst
 
-Observability can be seen as one of the principal drivers of the Continuous Delivery cycle for Kubernetes since it describes the actual running state of the system at any given time. The running system is observed in order to understand and control it. New features and fixes are pushed to git and trigger the deployment pipeline, and when ready to be released can be observed in real-time against the running cluster. At this point, the developer may return to the beginning of the pipeline based on this feedback or deploy and release the image to the production cluster.
+Observability can be seen as one of the principal drivers of the Continuous Delivery cycle for Kubernetes since it describes the actual running state of the system at any given time. The running system is observed in order to understand and control it. New features and fixes are pushed to git and trigger the deployment pipeline, and when ready to be released can be observed in real-time against the running cluster.
+
+----
+
+### Observability as a deployment catalyst
+
+At this point, the developer may return to the beginning of the pipeline based on this feedback or deploy and release the image to the production cluster.
 
 ----
 
